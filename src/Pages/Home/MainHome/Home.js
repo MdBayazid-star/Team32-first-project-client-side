@@ -14,7 +14,6 @@ const Home = () => {
   return (
     <div>
       <Header />
-      <h2>This is main Home.</h2>
       <HomeBanner />
       <HomeAbout />
       <HomeServices />
