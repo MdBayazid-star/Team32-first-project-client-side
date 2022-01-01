@@ -1,4 +1,6 @@
 import React from "react";
+import Footer from "../../Shared/Footer/Footer";
+import Header from "../../Shared/Header/Header";
 import HomeAbout from "../HomeAbout/HomeAbout";
 import HomeBanner from "../HomeBanner/HomeBanner";
 import HomeBlogs from "../HomeBlogs/HomeBlogs";
@@ -11,6 +13,7 @@ import HomeWeDo from "../HomeWeDo/HomeWeDo";
 const Home = () => {
   return (
     <div>
+      <Header />
       <h2>This is main Home.</h2>
       <HomeBanner />
       <HomeAbout />
@@ -20,6 +23,7 @@ const Home = () => {
       <HomeProgress />
       <HomeTeamMembers />
       <HomeBlogs />
+      <Footer />
     </div>
   );
 };
